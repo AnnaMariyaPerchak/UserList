@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset='utf-8'>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Js</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+</head>
+
+<body>
+    <div id="main">
+        <form id="inputing">
+            <p>Login</p>
+            <input type="text" id="login" name="login" placeholder="Enter login">
+            <p>Password</p>
+            <input type="password" id="password" name="password" placeholder="Enter password">
+            <p>Email address</p>
+            <input type="email" id="email" name="email" placeholder="Enter email">
+            <input type="button" value="Add user" id="add_user" onclick="addUser()" class="btn btn-outline-success">
+            <input type="button" value="Edit user" id="edit_user"  hidden=true class="btn btn-outline-success">
+        </form>
+        <div id="table">
+            <table id="Table" class="table">
+                <thead>
+                    <tr>
+                        <th scope="col">#</th>
+                        <th scope="col">Login</th>
+                        <th scope="col">Password</th>
+                        <th scope="col">Email</th>
+                        <th scope="col">Edit</th>
+                        <th scope="col">Delete</th>
+                    </tr>
+                </thead>
+            </table>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>

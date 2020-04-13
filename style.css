@@ -1,0 +1,30 @@
+#main{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+    padding: 0 5% 0 5%;
+    
+}
+#inputing{
+    float: left;
+    margin: 20px;
+    width: 50%;
+}
+#table{
+    float: right;
+    margin: 20px;
+    width: 50%;
+}
+#login{
+    width: 100%;
+    margin-bottom: 3%;
+}
+#password{
+    width: 100%;
+    margin-bottom: 3%;
+}
+#email{
+    width: 100%;
+    margin-bottom: 3%;
+}
